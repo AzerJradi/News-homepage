@@ -1,0 +1,263 @@
+:root{
+    --white:#FEFDF9;
+    --grey:#8F8D95;
+    --red:#F15D51;
+    --yellow:#E8AA55;
+    --darkBlue:#00001A;
+}
+*{
+    background: var(--white);
+}
+.body{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.NavBar {
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 0 25px 0;
+}
+.logo {
+    background: transparent;
+    width: 5%;
+}
+.navBarParts {
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+}
+.navBarPart {
+    background: transparent;
+    margin-left: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--grey);
+}
+.BfrDiv{
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+}
+.bigDiv1 {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+}
+.BigImg {
+    background: transparent;
+    width: 97.5%;
+}
+.title {
+    background: transparent;
+    font-size: 64px;
+    width: 50%;
+    line-height: 50px;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.dess {
+    font-family: Arial, Helvetica, sans-serif;
+    background: transparent;
+    font-size: 18px;
+    width: 45%;
+    margin-left: 50%;
+    margin-top: -220px;
+    margin-bottom: 50px;
+    color: var(--grey);
+}
+.ReadMore {
+    background: transparent;
+    margin-bottom: 100px;
+    width: 30%;
+    height: 40px;
+    margin-left: 50%;
+    border: none;
+    background: var(--red);
+    font-weight: 800;
+    font-size: 20px;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+.bigDiv2 {
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--darkBlue);
+    color: white;
+    width: 45%;
+    height: 500px;
+    padding: 25px;
+}
+.SecTitle {
+    background: transparent;
+    color: var(--yellow);
+    font-size: 36px;
+    font-weight: bolder;
+    margin-top: -5px;
+}
+.one {
+    background: transparent;
+    border-bottom: 1px var(--grey) solid;
+}
+.oneTitle {
+    background: transparent;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.oneDes {
+    background: transparent;
+    color: var(--grey);
+    line-height: 25px;
+    margin-top: -10px;
+}
+.two {
+    background: transparent;
+    border-bottom: 1px var(--grey) solid;
+}
+.three {
+    background: transparent;
+}
+.lastDiv {
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+}
+.retro-pcs {
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+}
+.PCImg {
+    background: transparent;
+    width: 35%;
+    height: 150px;
+    margin-right: 25px;
+}
+.num {
+    background: transparent;
+    color: var(--red);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: -5px;
+    margin-bottom: -10px;
+}
+.lastDivTitle {
+    background: transparent;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lastDivDes {
+    background: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--grey);
+}
+.top-laptops {
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    width: 30%;
+}
+.laptopImg {
+    background: transparent;
+    width: 35%;
+    height: 150px;
+    margin-right: 25px;
+}
+.gaming-growth {
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    width: 30%;
+}
+.manettte {
+    background: transparent;
+    width: 35%;
+    height: 150px;
+    margin-right: 25px;
+}
+.attribution {
+    background: transparent;
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 768px) {
+    .body {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .NavBar {
+        flex-direction: row;
+        margin: 20px 0;
+    }
+
+    .logo {
+        width: 15%;
+    }
+
+    .navBarParts {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .navBarPart {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .BfrDiv {
+        flex-direction: column;
+    }
+
+    .BigImg {
+        width: 100%;
+    }
+
+    .title {
+        font-size: 36px;
+        width: 100%;
+        line-height: 40px;
+        margin-top: 15px;
+    }
+
+    .dess {
+        width: 100%;
+        margin: 0;
+        margin-top: 15px;
+    }
+
+    .ReadMore {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .bigDiv2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .lastDiv {
+        flex-direction: column;
+    }
+
+    .retro-pcs, .top-laptops, .gaming-growth {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .PCImg, .laptopImg, .manettte {
+        width: 20%;
+        height: auto;
+    }
+
+    .attribution {
+
+    }
+}
